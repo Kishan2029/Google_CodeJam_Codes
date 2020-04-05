@@ -26,8 +26,4 @@ for x in range(1,a+1):
                     c=c+')'
                     
         print('Case #{}: '.format(x)+c1)      
-                    
-                    
-                    
-                    
-                    
+                                               
