@@ -1,12 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-
-
 int square[60][60], n, k, t;
 bool row_safe[60][60], col_safe[60][60], solved;
-
-
 
 void solver(int row, int col, int m) {
     if (row == n && col == n + 1 && m == k && !solved) {
@@ -42,9 +38,6 @@ void solver(int row, int col, int m) {
         }
     }
 }
-
-
-
 int main() {
     int T;
     scanf(" %d", &T);
